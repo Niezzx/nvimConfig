@@ -1,6 +1,7 @@
 # Neovim 个人配置
 
-插件管理 : https://github.com/wbthomason/packer.Neovim
+使用的是 packer 来管理插件
+配置如下:
 ```
 return packer.startup(function(use)
 	-- Dependencies
