@@ -95,3 +95,12 @@ Open vim-maximizer | <leader>sm
 Open vim-maximizer | <leader>sm
 jump to function definition | gd
 
+
+# Git
+## Git-Local
+切换分支 | git checkout <branch-name>
+
+## Git-remote
+链接本地仓库和远程仓库(origin指初始仓库的别名) | git remote add origin <url>
+本地仓库的远程仓库 URL 更改为新仓库的 URL | git remote set-url origin <new_url>
+
