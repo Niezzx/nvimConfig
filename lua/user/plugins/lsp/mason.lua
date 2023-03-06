@@ -37,13 +37,13 @@ local opts = {}
 -- https://github.com/neovim/nvim-lspconfig/blob/master/doc/server_configurations.md
 for _, server in pairs(servers) do
 	opts = {
-		on_attach = require("plugins.lsp.handlers").on_attach,
-		capabilities = require("plugins.lsp.handlers").capabilities,
+		on_attach = require("user.plugins.lsp.handlers").on_attach,
+		capabilities = require("user.plugins.lsp.handlers").capabilities,
 	}
 
 	server = vim.split(server, "@")[1]
 
-	local require_ok, conf_opts = pcall(require, "plugins.lsp.settings." .. server)
+	local require_ok, conf_opts = pcall(require, "user.plugins.lsp.settings." .. server)
 	if require_ok then
 		opts = vim.tbl_deep_extend("force", conf_opts, opts)
 	end

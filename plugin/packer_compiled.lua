@@ -219,6 +219,11 @@ _G.packer_plugins = {
     path = "/Users/niezzx/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
+  ["onedark.nvim"] = {
+    loaded = true,
+    path = "/Users/niezzx/.local/share/nvim/site/pack/packer/start/onedark.nvim",
+    url = "https://github.com/navarasu/onedark.nvim"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/niezzx/.local/share/nvim/site/pack/packer/start/packer.nvim",
@@ -243,11 +248,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/niezzx/.local/share/nvim/site/pack/packer/start/sqlite.lua",
     url = "https://github.com/kkharji/sqlite.lua"
-  },
-  ["startup.nvim"] = {
-    loaded = true,
-    path = "/Users/niezzx/.local/share/nvim/site/pack/packer/start/startup.nvim",
-    url = "https://github.com/startup-nvim/startup.nvim"
   },
   ["telescope-frecency.nvim"] = {
     loaded = true,

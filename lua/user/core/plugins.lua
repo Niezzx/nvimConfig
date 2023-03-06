@@ -73,6 +73,7 @@ return packer.startup(function(use)
 	-- ColorSchemes
 	use("folke/tokyonight.nvim")
 	use({ "catppuccin/nvim", as = "catppuccin" })
+	use("navarasu/onedark.nvim")
 
 	-- bufferline
 	use({ "akinsho/bufferline.nvim", tag = "v3.*" })
@@ -90,9 +91,6 @@ return packer.startup(function(use)
 
 	-- Git
 	use("lewis6991/gitsigns.nvim")
-
-	-- Startup
-	use("startup-nvim/startup.nvim")
 
 	-- Comment
 	use("numToStr/Comment.nvim")
