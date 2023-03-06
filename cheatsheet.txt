@@ -1,0 +1,97 @@
+# Tmux
+
+## Tmux-Windows
+Create a new window | <prefix> c
+List all windows | <prefix> w
+Switch to the specified window (0-9) | <prefix> 0-9
+Switch to next window | <prefix> n
+Switch to previous window | <prefix> p
+Find a window | <prefix> f
+Rename a window | <prefix> ,
+Kill a window | <prefix> &
+
+## Tmux-Panes
+Split current pane vertically | <prefix> -
+Split current pane horizontally | <prefix> =
+Switch to next pane | <prefix> Arrow keys
+List panes | <prefix> q
+Kill current pane | <prefix> x
+Resize the current pane down | <prefix> j
+Resize the current pane upward | <prefix> k
+Resize the current pane left | <prefix> h
+Resize the current pane right | <prefix> l
+Maximize/Minimize the current pane | <prefix> z
+Move the current pane to a new window | <prefix> !
+Switch to the last used pane | <prefix> ;
+Rotate all panes in the current window clockwise | <prefix> Ctrl+o
+Select the next pane | <prefix> o
+Cycle through default pane layouts | <prefix> space
+
+## Tmux-Sessions
+Start a new session with name {name} | tmux new -s {name}
+Attach to last session | tmux a
+Attach to session with name {name} | tmux a -t {name}
+List sessions | tmux ls
+Kill session with name {name} | tmux kill-session -t {name}
+kill all sessions | kill-server
+
+## Tmux-System
+Show the shortcut help document | <prefix> ?
+Detach from the current session | <prefix> d
+Choose a session to detach | <prefix> D
+Suspend the current session | <prefix> Ctrl+z
+Reload the current session | <prefix> r
+Show the session list for selection and switching | <prefix> s
+Enter command line mode, where you can directly enter commands such as ls | <prefix> :
+Enter copy mode, press q to exit | <prefix> v
+Paste the copied text from copy mode | <prefix> y
+List the message buffer | <prefix> ~
+
+
+
+# Vim & Neovim
+
+## Vim-Move
+下一个词首(跳过标点) | w, W
+下一个词尾 | e, E
+回退一个词(跳过标点) | b, B
+到这一行的最开头 | 0
+到这一行的非空白最开头 | ^
+到这行的行尾 | $
+到这一行的非空白行为 | g_
+句首 | (
+句尾 | )
+到文件头 | gg
+到文件尾 | G 
+Move to end of next paragraph or code block | } 
+Move to start of previous paragraph or code block | }
+Move forward one screenful | Ctrl+F
+Move backward one screenful | Ctrl+B
+向下翻页(down) | ctrl+d
+向上翻页(up) | ctrl+u 
+屏幕位置，分别为顶部，中间，尾部 | H, M, L 
+normal模式下区中 | zz 
+insert模式下区中 (利用insert normal模式) | ctrl-o zz 
+
+
+## Normal-Model
+Cancel search highlighting | <leader>nh
+Open new tab | <leader>to
+Close current tab | <leader>tx
+Go to next tab | <leader>tn
+Go to previous tab | <leader>tp
+Split window vertically | <leader>sv
+Split window horizontally | <leader>sh
+Make all split windows equal width & height | <leader>se
+Close current split window | <leader>sx
+
+## Virsual-Model
+
+## Plugins-Keymap
+Open vim-maximizer | <leader>sm
+Open nvim-tree | <leader>e
+Open telescope-media-files | <leader>fm
+Open vim-maximizer | <leader>sm
+Open vim-maximizer | <leader>sm
+jump to function definition | gd
+
